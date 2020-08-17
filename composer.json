@@ -1,0 +1,29 @@
+{
+  "name": "lamansky/secure-shuffle",
+  "description": "Reorders array elements using cryptographically-secure randomization.",
+  "type": "library",
+  "keywords": [
+    "cryptographically secure",
+    "array",
+    "randomization",
+    "shuffle"
+  ],
+  "homepage": "https://github.com/lamansky/secure-shuffle",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Fr. John Lamansky",
+      "homepage": "https://lamansky.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.0"
+  },
+  "require-dev": {
+    "lamansky/phpcs": "^1",
+    "phpunit/phpunit": "^9"
+  },
+  "autoload": {
+    "files": ["src/functions.php"]
+  }
+}
